@@ -24,8 +24,8 @@ body {
     background-position: center;
     padding-bottom: 0px;
     padding-top: 20px;
-    height: 930px;
-    width: 1351px;
+    height: 1093px;
+    width: 1440px;
 }
 
 nav {
@@ -89,7 +89,7 @@ h1 {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
     margin-bottom: 150px;
     margin-left: 35px;
-    background-color: #C271FF
+    background-color: #C271FF;
 }
 
 button:hover {
@@ -171,4 +171,32 @@ button:hover {
     font-weight: 200;
 }
 
+.testimonial {
+    background-color: #C271FF;
+    height: 392px;
+    width: 1440px;
+    justify-content: center;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    }
 
+  .testimonial img {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .testimonial h3, .testimonial p, blockquote {
+    text-align: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  blockquote {
+    margin-bottom: 20px;
+  }
